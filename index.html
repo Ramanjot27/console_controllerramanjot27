@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Console Controller</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="pageTitle">Ramanjot kaur Page</h1>
+        <p id="pageDescription">Hello, I'm Ramanjot kaur, and this is my student ID: 90541095090</p>
+    </div>
+
+    <div class="container light-theme">
+        <h1>Welcome to our Light Theme</h1>
+        <p>This is an example of content in the light theme. Customize it according to your needs.</p>
+        <button onclick="setTitle('New Light Theme Title')">Click me</button>
+        <button onclick="setDescription('New Light Theme Description')">Click me</button>
+        <button onclick="setBackgroundColor('#f5f5f5')">Click me</button>
+        <button onclick="setFontColor('#333')">Click me</button>
+        <button onclick="setLightTheme()">Set Light Theme</button>
+        <button onclick="setDarkTheme()">Set Dark Theme</button>
+    </div>
+
+    <div class="container dark-theme">
+        <h1>Welcome to our Dark Theme</h1>
+        <p>This is an example of content in the dark theme. Customize it according to your needs.</p>
+        <button onclick="setTitle('New Dark Theme Title')">Click me</button>
+        <button onclick="setDescription('New Dark Theme Description')">Click me</button>
+        <button onclick="setBackgroundColor('#333')">Click me</button>
+        <button onclick="setFontColor('#fff')">Click me</button>
+        <button onclick="setLightTheme()">Set Light Theme</button>
+        <button onclick="setDarkTheme()">Set Dark Theme</button>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
